@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.otpContainer {
+  margin: 5% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.otpInput {
+  width: 3rem !important;
+  height: 3rem;
+  margin: 0 1rem;
+  font-size: 2rem;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.submit-btn {
+  margin: 1rem;
+  padding: 1rem 1rem;
+  cursor: pointer;
+  background: rgb(0, 127, 255);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 12px;
+}
